@@ -1,0 +1,92 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.judul{
+	width:0%;
+	padding : 2%;
+	height: 50px;
+	color:#fff;
+	background:linear-gradient(red);
+}
+.slider{
+	width:92%;
+	height: 200px;
+	background-image: url(pantai.jpg);
+	padding: 4%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.konten{
+	width:100%;	
+	background-image: url(pantai.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.wisata{
+	width: 80%;
+	margin:0 auto;
+	background-color: #fff;
+	box-shadow: 4px 5px 10px;
+	padding: 3%;
+	min-height: 800px;
+}
+.gambar-wisata{
+	width: 250px;
+	height: 200px;
+	margin-right: 20px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 10px;
+}
+h2{ color:#0d734c;}
+p{ color: #595e5c; text-align: justify; }
+.footer{
+
+	clear:both;
+	width:96%;
+	padding : 2%;
+	height: 30px;
+	color:#fff;
+	background:linear-gradient(lightblue,#008B8B);
+}
+ul, li {
+	list-style-type: none;
+	margin:0 15px;
+	padding:0 150px;
+}
+
+ul.menu li {
+	display: inline-block;
+	background: lightblue;
+	color: black;
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 15px;
+}
+
+ul.menu li:hover {
+	background: lightblue;
+	color: #00ffff;
+	cursor: pointer;
+}
+
+
+ul.risky {
+	display:none;
+}
+
+ul.menu li:hover ul.unky {
+}
+ul.risky {
+	margin-left: -180px;
+}
+
+ul.risky li {
+	display: block;
+}
